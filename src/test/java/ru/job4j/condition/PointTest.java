@@ -16,7 +16,7 @@ class PointTest {
     }
 
     @Test
-    void when10to20then2() {
+    void when10to20then1() {
         double expected = 1;
         int x1 = 1;
         int y1 = 0;
@@ -27,7 +27,7 @@ class PointTest {
     }
 
     @Test
-    void when00to50then2() {
+    void when00to50then5() {
         double expected = 5;
         int x1 = 0;
         int y1 = 0;
